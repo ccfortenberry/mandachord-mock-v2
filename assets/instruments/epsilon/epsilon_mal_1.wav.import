@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/epsilon_mal_1.wav-a383c8a8fbdbf2dbba57416941f2320c.sample"
+
+[deps]
+
+source_file="res://assets/instruments/epsilon/epsilon_mal_1.wav"
+dest_files=[ "res://.import/epsilon_mal_1.wav-a383c8a8fbdbf2dbba57416941f2320c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

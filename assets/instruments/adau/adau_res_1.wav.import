@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/adau_res_1.wav-d2086efb1d19e9fed66baf545f3640cc.sample"
+
+[deps]
+
+source_file="res://assets/instruments/adau/adau_res_1.wav"
+dest_files=[ "res://.import/adau_res_1.wav-d2086efb1d19e9fed66baf545f3640cc.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

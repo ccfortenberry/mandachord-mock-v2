@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/alpha_met_3.wav-55ed6bb52c6286eb72e0e2fb9f7b31af.sample"
+
+[deps]
+
+source_file="res://assets/instruments/alpha/alpha_met_3.wav"
+dest_files=[ "res://.import/alpha_met_3.wav-55ed6bb52c6286eb72e0e2fb9f7b31af.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

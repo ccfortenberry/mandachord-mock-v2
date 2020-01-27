@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/druk_mal_3.wav-2c1296cb564e55ee437e6af30b9889fb.sample"
+
+[deps]
+
+source_file="res://assets/instruments/druk/druk_mal_3.wav"
+dest_files=[ "res://.import/druk_mal_3.wav-2c1296cb564e55ee437e6af30b9889fb.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

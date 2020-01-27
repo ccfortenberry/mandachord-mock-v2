@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/horos_met_3.wav-8e26913ebc4a91c9179a8fa373d4a83a.sample"
+
+[deps]
+
+source_file="res://assets/instruments/horos/horos_met_3.wav"
+dest_files=[ "res://.import/horos_met_3.wav-8e26913ebc4a91c9179a8fa373d4a83a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

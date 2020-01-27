@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/beta_mal_3.wav-9537a1c3ac4866d272e90b33d603565a.sample"
+
+[deps]
+
+source_file="res://assets/instruments/beta/beta_mal_3.wav"
+dest_files=[ "res://.import/beta_mal_3.wav-9537a1c3ac4866d272e90b33d603565a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

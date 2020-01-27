@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/delta_res_4.wav-e57d67598931bacca53485a54ba923df.sample"
+
+[deps]
+
+source_file="res://assets/instruments/delta/delta_res_4.wav"
+dest_files=[ "res://.import/delta_res_4.wav-e57d67598931bacca53485a54ba923df.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

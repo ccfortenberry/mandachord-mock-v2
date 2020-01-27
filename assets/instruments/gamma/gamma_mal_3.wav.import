@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gamma_mal_3.wav-fd2d2802f6dff30b91c35de7a2e85acc.sample"
+
+[deps]
+
+source_file="res://assets/instruments/gamma/gamma_mal_3.wav"
+dest_files=[ "res://.import/gamma_mal_3.wav-fd2d2802f6dff30b91c35de7a2e85acc.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

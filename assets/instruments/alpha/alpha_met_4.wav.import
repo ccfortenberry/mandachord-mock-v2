@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/alpha_met_4.wav-5d8b411fabcb7f7547dd4c122bdffb3f.sample"
+
+[deps]
+
+source_file="res://assets/instruments/alpha/alpha_met_4.wav"
+dest_files=[ "res://.import/alpha_met_4.wav-5d8b411fabcb7f7547dd4c122bdffb3f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

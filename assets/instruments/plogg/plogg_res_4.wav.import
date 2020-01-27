@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/plogg_res_4.wav-d74dc5c129391e9a280a89cf86b9b0d9.sample"
+
+[deps]
+
+source_file="res://assets/instruments/plogg/plogg_res_4.wav"
+dest_files=[ "res://.import/plogg_res_4.wav-d74dc5c129391e9a280a89cf86b9b0d9.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

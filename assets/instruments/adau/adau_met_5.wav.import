@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/adau_met_5.wav-2f40fceebe0736509fdb016c2a53d4fc.sample"
+
+[deps]
+
+source_file="res://assets/instruments/adau/adau_met_5.wav"
+dest_files=[ "res://.import/adau_met_5.wav-2f40fceebe0736509fdb016c2a53d4fc.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

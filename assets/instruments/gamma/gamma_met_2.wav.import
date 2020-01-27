@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gamma_met_2.wav-96bb43f2c70ded064906c1f2812441a6.sample"
+
+[deps]
+
+source_file="res://assets/instruments/gamma/gamma_met_2.wav"
+dest_files=[ "res://.import/gamma_met_2.wav-96bb43f2c70ded064906c1f2812441a6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/beta_met_1.wav-4836263a70fc1b0818b2da595665ce6a.sample"
+
+[deps]
+
+source_file="res://assets/instruments/beta/beta_met_1.wav"
+dest_files=[ "res://.import/beta_met_1.wav-4836263a70fc1b0818b2da595665ce6a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
