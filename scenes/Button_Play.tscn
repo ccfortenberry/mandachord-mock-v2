@@ -1,0 +1,8 @@
+[gd_scene format=2]
+
+[node name="Button_Play" type="Button"]
+margin_right = 74.0
+margin_bottom = 31.0
+toggle_mode = true
+pressed = true
+text = "Play"

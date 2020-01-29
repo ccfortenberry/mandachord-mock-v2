@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="mandachord"
-run/main_scene="res://Mandachord_Main.tscn"
+run/main_scene="res://scenes/Mandachord_Main.tscn"
 run/disable_stdout=true
 config/icon="res://icon.png"
 

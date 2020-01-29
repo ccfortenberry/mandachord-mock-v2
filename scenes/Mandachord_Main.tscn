@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scripts/Mandachord_Main.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Note_Mallet1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/PlayBar.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/Button_Play.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/Button_Mallet.tscn" type="PackedScene" id=5]
+
+[node name="Mandachord_Main" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Note_Mallet1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 66.5, 66.5 )
+
+[node name="Note_Mallet2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 144.4, 68.4 )
+
+[node name="PlayBar" parent="." instance=ExtResource( 3 )]
+position = Vector2( 0, 359.275 )
+speed = 40.0
+
+[node name="Button_Play" parent="." instance=ExtResource( 4 )]
+margin_left = 24.7
+margin_top = 7.60001
+margin_right = 98.7
+margin_bottom = 38.6
+
+[node name="Button_Mallet" parent="." instance=ExtResource( 5 )]
+margin_left = 177.209
+margin_top = 8.16225
+margin_right = 314.209
+margin_bottom = 48.1622
+text = "Adau"

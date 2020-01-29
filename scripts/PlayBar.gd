@@ -9,6 +9,7 @@ func _ready():
 	screen_size = get_viewport_rect().size
 
 func _process(delta):
-	velocity = velocity.normalized() * speed
-	position += velocity * delta
-	position.x = clamp(position.x, 0, screen_size.x)
+	if $"/root/Mandachord_Main/Button_Play".pressed:
+		velocity = velocity.normalized() * speed
+		position += velocity * delta
+		position.x = clamp(position.x, 0, screen_size.x)
