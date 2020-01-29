@@ -6,6 +6,7 @@
 margin_left = -1.0
 margin_right = 136.0
 margin_bottom = 40.0
+text = "Adau"
 clip_text = true
 items = [ "Adau", null, false, 0, null, "Alpha", null, false, 1, null, "Beta", null, false, 2, null, "Delta", null, false, 3, null, "Druk", null, false, 4, null, "Epsilon", null, false, 5, null, "Gamma", null, false, 6, null, "Horos", null, false, 7, null, "Plogg", null, false, 8, null ]
 selected = 0

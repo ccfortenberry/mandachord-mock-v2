@@ -1,17 +1,14 @@
-extends Node2D
+extends Control
 
-#export (bool) var enabled = false
-
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	get_parent().get_node("../Button_Mallet").connect("instrument_changed", self, "_on_mallets_changed")
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
 
+func _on_mallets_changed(instrument):
+	$Sound.stream = load("res://assets/instruments/"+instrument+"/"+instrument+"_mal_1.wav")
 
-func _on_Note_Mallet1_body_entered(body):
-	if $Note.pressed:
+func _on_Body_body_entered(body):
+	if $"Body/Note".pressed:
 		$Sound.play()
