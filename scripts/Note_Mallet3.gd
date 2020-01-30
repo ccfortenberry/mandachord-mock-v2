@@ -7,7 +7,7 @@ func _ready():
 #	pass
 
 func _on_mallets_changed(instrument):
-	$Sound.stream = load("res://assets/instruments/"+instrument+"/"+instrument+"_mal_1.wav")
+	$Sound.stream = load("res://assets/instruments/"+instrument+"/"+instrument+"_mal_3.wav")
 		
 
 func _on_Body_body_entered(body):

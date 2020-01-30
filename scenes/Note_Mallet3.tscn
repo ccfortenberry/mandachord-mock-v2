@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://scripts/Note_Mallet1.gd" type="Script" id=1]
-[ext_resource path="res://assets/icons/mallets-1_icon.png" type="Texture" id=2]
-[ext_resource path="res://assets/instruments/adau/adau_mal_1.wav" type="AudioStream" id=3]
+[ext_resource path="res://scripts/Note_Mallet3.gd" type="Script" id=1]
+[ext_resource path="res://assets/icons/mallets-3_icon.png" type="Texture" id=2]
+[ext_resource path="res://assets/instruments/adau/adau_mal_3.wav" type="AudioStream" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 184.854, 185.069 )
@@ -18,7 +18,7 @@ bg_color = Color( 0.470588, 0.470588, 0.470588, 1 )
 [sub_resource type="StyleBoxFlat" id=5]
 bg_color = Color( 0.356863, 0.356863, 0.356863, 1 )
 
-[node name="Note_Mallet1_1" type="Control"]
+[node name="Note_Mallet3_1" type="Control"]
 margin_right = 70.0
 margin_bottom = 70.0
 script = ExtResource( 1 )
