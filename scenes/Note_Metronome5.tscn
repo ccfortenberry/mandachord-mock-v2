@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://scripts/Note_Met1.gd" type="Script" id=1]
+[ext_resource path="res://scripts/Note_Met5.gd" type="Script" id=1]
 [ext_resource path="res://assets/icons/metronome_icon.png" type="Texture" id=2]
-[ext_resource path="res://assets/instruments/adau/adau_met_1.wav" type="AudioStream" id=3]
+[ext_resource path="res://assets/instruments/adau/adau_met_5.wav" type="AudioStream" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 184.854, 185.069 )
@@ -18,7 +18,7 @@ bg_color = Color( 0.537255, 0.345098, 0.560784, 1 )
 [sub_resource type="StyleBoxFlat" id=5]
 bg_color = Color( 0.419608, 0.227451, 0.443137, 1 )
 
-[node name="Note_Met1_1" type="Control"]
+[node name="Note_Met5_1" type="Control"]
 margin_right = 70.0
 margin_bottom = 70.0
 script = ExtResource( 1 )

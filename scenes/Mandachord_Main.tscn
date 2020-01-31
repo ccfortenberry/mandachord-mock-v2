@@ -1,17 +1,31 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://scenes/Note_Mallet1.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/Note_Mallet2.tscn" type="PackedScene" id=2]
 [ext_resource path="res://scenes/Note_Mallet3.tscn" type="PackedScene" id=3]
-[ext_resource path="res://scenes/PlayBar.tscn" type="PackedScene" id=4]
-[ext_resource path="res://scenes/Button_Play.tscn" type="PackedScene" id=5]
-[ext_resource path="res://scenes/Button_Mallet.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/Note_Resonator1.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/Note_Resonator2.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/Note_Resonator3.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/Note_Resonator4.tscn" type="PackedScene" id=7]
+[ext_resource path="res://scenes/Note_Resonator5.tscn" type="PackedScene" id=8]
+[ext_resource path="res://scenes/Note_Metronome1.tscn" type="PackedScene" id=9]
+[ext_resource path="res://scenes/Note_Metronome2.tscn" type="PackedScene" id=10]
+[ext_resource path="res://scenes/Note_Metronome3.tscn" type="PackedScene" id=11]
+[ext_resource path="res://scenes/Note_Metronome4.tscn" type="PackedScene" id=12]
+[ext_resource path="res://scenes/Note_Metronome5.tscn" type="PackedScene" id=13]
+[ext_resource path="res://scenes/PlayBar.tscn" type="PackedScene" id=14]
+[ext_resource path="res://scenes/Button_Play.tscn" type="PackedScene" id=15]
+[ext_resource path="res://scenes/Button_Mallet.tscn" type="PackedScene" id=16]
+[ext_resource path="res://scenes/Button_Metronome.tscn" type="PackedScene" id=17]
+[ext_resource path="res://scenes/Button_Resonator.tscn" type="PackedScene" id=18]
 
 [node name="Mandachord_Main" type="Node2D"]
 
 [node name="Mandachord_Body" type="GridContainer" parent="."]
-margin_right = 1270.0
-margin_bottom = 720.0
+editor/display_folded = true
+margin_right = 5040.0
+margin_bottom = 960.0
+rect_scale = Vector2( 0.5, 0.5 )
 custom_constants/vseparation = 80
 custom_constants/hseparation = 80
 columns = 64
@@ -1101,19 +1115,3862 @@ margin_top = 160.0
 margin_right = 5040.0
 margin_bottom = 160.0
 
-[node name="PlayBar" parent="." instance=ExtResource( 4 )]
+[node name="Note_Res1_1" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_top = 240.0
+margin_right = 0.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_2" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 80.0
+margin_top = 240.0
+margin_right = 80.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_3" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 160.0
+margin_top = 240.0
+margin_right = 160.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_4" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 240.0
+margin_top = 240.0
+margin_right = 240.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_5" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 320.0
+margin_top = 240.0
+margin_right = 320.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_6" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 400.0
+margin_top = 240.0
+margin_right = 400.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_7" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 480.0
+margin_top = 240.0
+margin_right = 480.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_8" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 560.0
+margin_top = 240.0
+margin_right = 560.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_9" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 640.0
+margin_top = 240.0
+margin_right = 640.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_10" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 720.0
+margin_top = 240.0
+margin_right = 720.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_11" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 800.0
+margin_top = 240.0
+margin_right = 800.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_12" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 880.0
+margin_top = 240.0
+margin_right = 880.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_13" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 960.0
+margin_top = 240.0
+margin_right = 960.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_14" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1040.0
+margin_top = 240.0
+margin_right = 1040.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_15" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1120.0
+margin_top = 240.0
+margin_right = 1120.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_16" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1200.0
+margin_top = 240.0
+margin_right = 1200.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_17" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1280.0
+margin_top = 240.0
+margin_right = 1280.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_18" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1360.0
+margin_top = 240.0
+margin_right = 1360.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_19" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1440.0
+margin_top = 240.0
+margin_right = 1440.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_20" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1520.0
+margin_top = 240.0
+margin_right = 1520.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_21" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1600.0
+margin_top = 240.0
+margin_right = 1600.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_22" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1680.0
+margin_top = 240.0
+margin_right = 1680.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_23" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1760.0
+margin_top = 240.0
+margin_right = 1760.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_24" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1840.0
+margin_top = 240.0
+margin_right = 1840.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_25" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 1920.0
+margin_top = 240.0
+margin_right = 1920.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_26" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2000.0
+margin_top = 240.0
+margin_right = 2000.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_27" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2080.0
+margin_top = 240.0
+margin_right = 2080.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_28" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2160.0
+margin_top = 240.0
+margin_right = 2160.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_29" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2240.0
+margin_top = 240.0
+margin_right = 2240.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_30" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2320.0
+margin_top = 240.0
+margin_right = 2320.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_31" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2400.0
+margin_top = 240.0
+margin_right = 2400.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_32" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2480.0
+margin_top = 240.0
+margin_right = 2480.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_33" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2560.0
+margin_top = 240.0
+margin_right = 2560.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_34" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2640.0
+margin_top = 240.0
+margin_right = 2640.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_35" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2720.0
+margin_top = 240.0
+margin_right = 2720.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_36" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2800.0
+margin_top = 240.0
+margin_right = 2800.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_37" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2880.0
+margin_top = 240.0
+margin_right = 2880.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_38" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 2960.0
+margin_top = 240.0
+margin_right = 2960.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_39" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3040.0
+margin_top = 240.0
+margin_right = 3040.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_40" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3120.0
+margin_top = 240.0
+margin_right = 3120.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_41" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3200.0
+margin_top = 240.0
+margin_right = 3200.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_42" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3280.0
+margin_top = 240.0
+margin_right = 3280.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_43" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3360.0
+margin_top = 240.0
+margin_right = 3360.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_44" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3440.0
+margin_top = 240.0
+margin_right = 3440.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_45" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3520.0
+margin_top = 240.0
+margin_right = 3520.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_46" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3600.0
+margin_top = 240.0
+margin_right = 3600.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_47" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3680.0
+margin_top = 240.0
+margin_right = 3680.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_48" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3760.0
+margin_top = 240.0
+margin_right = 3760.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_49" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3840.0
+margin_top = 240.0
+margin_right = 3840.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_50" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 3920.0
+margin_top = 240.0
+margin_right = 3920.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_51" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4000.0
+margin_top = 240.0
+margin_right = 4000.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_52" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4080.0
+margin_top = 240.0
+margin_right = 4080.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_53" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4160.0
+margin_top = 240.0
+margin_right = 4160.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_54" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4240.0
+margin_top = 240.0
+margin_right = 4240.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_55" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4320.0
+margin_top = 240.0
+margin_right = 4320.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_56" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4400.0
+margin_top = 240.0
+margin_right = 4400.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_57" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4480.0
+margin_top = 240.0
+margin_right = 4480.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_58" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4560.0
+margin_top = 240.0
+margin_right = 4560.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_59" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4640.0
+margin_top = 240.0
+margin_right = 4640.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_60" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4720.0
+margin_top = 240.0
+margin_right = 4720.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_61" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4800.0
+margin_top = 240.0
+margin_right = 4800.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_62" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4880.0
+margin_top = 240.0
+margin_right = 4880.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_63" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 4960.0
+margin_top = 240.0
+margin_right = 4960.0
+margin_bottom = 240.0
+
+[node name="Note_Res1_64" parent="Mandachord_Body" instance=ExtResource( 4 )]
+margin_left = 5040.0
+margin_top = 240.0
+margin_right = 5040.0
+margin_bottom = 240.0
+
+[node name="Note_Res2_1" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_top = 320.0
+margin_right = 0.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_2" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 80.0
+margin_top = 320.0
+margin_right = 80.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_3" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 160.0
+margin_top = 320.0
+margin_right = 160.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_4" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 240.0
+margin_top = 320.0
+margin_right = 240.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_5" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 320.0
+margin_top = 320.0
+margin_right = 320.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_6" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 400.0
+margin_top = 320.0
+margin_right = 400.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_7" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 480.0
+margin_top = 320.0
+margin_right = 480.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_8" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 560.0
+margin_top = 320.0
+margin_right = 560.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_9" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 640.0
+margin_top = 320.0
+margin_right = 640.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_10" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 720.0
+margin_top = 320.0
+margin_right = 720.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_11" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 800.0
+margin_top = 320.0
+margin_right = 800.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_12" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 880.0
+margin_top = 320.0
+margin_right = 880.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_13" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 960.0
+margin_top = 320.0
+margin_right = 960.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_14" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1040.0
+margin_top = 320.0
+margin_right = 1040.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_15" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1120.0
+margin_top = 320.0
+margin_right = 1120.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_16" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1200.0
+margin_top = 320.0
+margin_right = 1200.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_17" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1280.0
+margin_top = 320.0
+margin_right = 1280.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_18" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1360.0
+margin_top = 320.0
+margin_right = 1360.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_19" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1440.0
+margin_top = 320.0
+margin_right = 1440.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_20" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1520.0
+margin_top = 320.0
+margin_right = 1520.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_21" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1600.0
+margin_top = 320.0
+margin_right = 1600.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_22" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1680.0
+margin_top = 320.0
+margin_right = 1680.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_23" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1760.0
+margin_top = 320.0
+margin_right = 1760.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_24" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1840.0
+margin_top = 320.0
+margin_right = 1840.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_25" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 1920.0
+margin_top = 320.0
+margin_right = 1920.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_26" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2000.0
+margin_top = 320.0
+margin_right = 2000.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_27" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2080.0
+margin_top = 320.0
+margin_right = 2080.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_28" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2160.0
+margin_top = 320.0
+margin_right = 2160.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_29" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2240.0
+margin_top = 320.0
+margin_right = 2240.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_30" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2320.0
+margin_top = 320.0
+margin_right = 2320.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_31" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2400.0
+margin_top = 320.0
+margin_right = 2400.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_32" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2480.0
+margin_top = 320.0
+margin_right = 2480.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_33" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2560.0
+margin_top = 320.0
+margin_right = 2560.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_34" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2640.0
+margin_top = 320.0
+margin_right = 2640.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_35" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2720.0
+margin_top = 320.0
+margin_right = 2720.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_36" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2800.0
+margin_top = 320.0
+margin_right = 2800.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_37" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2880.0
+margin_top = 320.0
+margin_right = 2880.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_38" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 2960.0
+margin_top = 320.0
+margin_right = 2960.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_39" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3040.0
+margin_top = 320.0
+margin_right = 3040.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_40" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3120.0
+margin_top = 320.0
+margin_right = 3120.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_41" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3200.0
+margin_top = 320.0
+margin_right = 3200.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_42" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3280.0
+margin_top = 320.0
+margin_right = 3280.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_43" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3360.0
+margin_top = 320.0
+margin_right = 3360.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_44" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3440.0
+margin_top = 320.0
+margin_right = 3440.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_45" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3520.0
+margin_top = 320.0
+margin_right = 3520.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_46" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3600.0
+margin_top = 320.0
+margin_right = 3600.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_47" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3680.0
+margin_top = 320.0
+margin_right = 3680.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_48" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3760.0
+margin_top = 320.0
+margin_right = 3760.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_49" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3840.0
+margin_top = 320.0
+margin_right = 3840.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_50" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 3920.0
+margin_top = 320.0
+margin_right = 3920.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_51" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4000.0
+margin_top = 320.0
+margin_right = 4000.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_52" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4080.0
+margin_top = 320.0
+margin_right = 4080.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_53" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4160.0
+margin_top = 320.0
+margin_right = 4160.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_54" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4240.0
+margin_top = 320.0
+margin_right = 4240.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_55" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4320.0
+margin_top = 320.0
+margin_right = 4320.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_56" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4400.0
+margin_top = 320.0
+margin_right = 4400.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_57" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4480.0
+margin_top = 320.0
+margin_right = 4480.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_58" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4560.0
+margin_top = 320.0
+margin_right = 4560.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_59" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4640.0
+margin_top = 320.0
+margin_right = 4640.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_60" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4720.0
+margin_top = 320.0
+margin_right = 4720.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_61" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4800.0
+margin_top = 320.0
+margin_right = 4800.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_62" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4880.0
+margin_top = 320.0
+margin_right = 4880.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_63" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 4960.0
+margin_top = 320.0
+margin_right = 4960.0
+margin_bottom = 320.0
+
+[node name="Note_Res2_64" parent="Mandachord_Body" instance=ExtResource( 5 )]
+margin_left = 5040.0
+margin_top = 320.0
+margin_right = 5040.0
+margin_bottom = 320.0
+
+[node name="Note_Res3_1" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_top = 400.0
+margin_right = 0.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_2" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 80.0
+margin_top = 400.0
+margin_right = 80.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_3" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 160.0
+margin_top = 400.0
+margin_right = 160.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_4" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 240.0
+margin_top = 400.0
+margin_right = 240.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_5" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 320.0
+margin_top = 400.0
+margin_right = 320.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_6" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 400.0
+margin_top = 400.0
+margin_right = 400.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_7" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 480.0
+margin_top = 400.0
+margin_right = 480.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_8" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 560.0
+margin_top = 400.0
+margin_right = 560.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_9" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 640.0
+margin_top = 400.0
+margin_right = 640.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_10" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 720.0
+margin_top = 400.0
+margin_right = 720.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_11" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 800.0
+margin_top = 400.0
+margin_right = 800.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_12" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 880.0
+margin_top = 400.0
+margin_right = 880.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_13" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 960.0
+margin_top = 400.0
+margin_right = 960.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_14" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1040.0
+margin_top = 400.0
+margin_right = 1040.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_15" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1120.0
+margin_top = 400.0
+margin_right = 1120.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_16" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1200.0
+margin_top = 400.0
+margin_right = 1200.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_17" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1280.0
+margin_top = 400.0
+margin_right = 1280.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_18" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1360.0
+margin_top = 400.0
+margin_right = 1360.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_19" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1440.0
+margin_top = 400.0
+margin_right = 1440.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_20" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1520.0
+margin_top = 400.0
+margin_right = 1520.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_21" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1600.0
+margin_top = 400.0
+margin_right = 1600.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_22" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1680.0
+margin_top = 400.0
+margin_right = 1680.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_23" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1760.0
+margin_top = 400.0
+margin_right = 1760.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_24" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1840.0
+margin_top = 400.0
+margin_right = 1840.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_25" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 1920.0
+margin_top = 400.0
+margin_right = 1920.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_26" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2000.0
+margin_top = 400.0
+margin_right = 2000.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_27" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2080.0
+margin_top = 400.0
+margin_right = 2080.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_28" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2160.0
+margin_top = 400.0
+margin_right = 2160.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_29" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2240.0
+margin_top = 400.0
+margin_right = 2240.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_30" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2320.0
+margin_top = 400.0
+margin_right = 2320.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_31" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2400.0
+margin_top = 400.0
+margin_right = 2400.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_32" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2480.0
+margin_top = 400.0
+margin_right = 2480.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_33" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2560.0
+margin_top = 400.0
+margin_right = 2560.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_34" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2640.0
+margin_top = 400.0
+margin_right = 2640.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_35" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2720.0
+margin_top = 400.0
+margin_right = 2720.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_36" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2800.0
+margin_top = 400.0
+margin_right = 2800.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_37" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2880.0
+margin_top = 400.0
+margin_right = 2880.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_38" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 2960.0
+margin_top = 400.0
+margin_right = 2960.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_39" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3040.0
+margin_top = 400.0
+margin_right = 3040.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_40" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3120.0
+margin_top = 400.0
+margin_right = 3120.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_41" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3200.0
+margin_top = 400.0
+margin_right = 3200.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_42" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3280.0
+margin_top = 400.0
+margin_right = 3280.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_43" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3360.0
+margin_top = 400.0
+margin_right = 3360.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_44" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3440.0
+margin_top = 400.0
+margin_right = 3440.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_45" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3520.0
+margin_top = 400.0
+margin_right = 3520.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_46" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3600.0
+margin_top = 400.0
+margin_right = 3600.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_47" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3680.0
+margin_top = 400.0
+margin_right = 3680.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_48" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3760.0
+margin_top = 400.0
+margin_right = 3760.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_49" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3840.0
+margin_top = 400.0
+margin_right = 3840.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_50" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 3920.0
+margin_top = 400.0
+margin_right = 3920.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_51" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4000.0
+margin_top = 400.0
+margin_right = 4000.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_52" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4080.0
+margin_top = 400.0
+margin_right = 4080.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_53" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4160.0
+margin_top = 400.0
+margin_right = 4160.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_54" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4240.0
+margin_top = 400.0
+margin_right = 4240.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_55" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4320.0
+margin_top = 400.0
+margin_right = 4320.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_56" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4400.0
+margin_top = 400.0
+margin_right = 4400.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_57" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4480.0
+margin_top = 400.0
+margin_right = 4480.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_58" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4560.0
+margin_top = 400.0
+margin_right = 4560.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_59" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4640.0
+margin_top = 400.0
+margin_right = 4640.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_60" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4720.0
+margin_top = 400.0
+margin_right = 4720.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_61" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4800.0
+margin_top = 400.0
+margin_right = 4800.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_62" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4880.0
+margin_top = 400.0
+margin_right = 4880.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_63" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 4960.0
+margin_top = 400.0
+margin_right = 4960.0
+margin_bottom = 400.0
+
+[node name="Note_Res3_64" parent="Mandachord_Body" instance=ExtResource( 6 )]
+margin_left = 5040.0
+margin_top = 400.0
+margin_right = 5040.0
+margin_bottom = 400.0
+
+[node name="Note_Res4_1" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_top = 480.0
+margin_right = 0.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_2" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 80.0
+margin_top = 480.0
+margin_right = 80.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_3" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 160.0
+margin_top = 480.0
+margin_right = 160.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_4" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 240.0
+margin_top = 480.0
+margin_right = 240.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_5" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 320.0
+margin_top = 480.0
+margin_right = 320.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_6" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 400.0
+margin_top = 480.0
+margin_right = 400.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_7" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 480.0
+margin_top = 480.0
+margin_right = 480.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_8" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 560.0
+margin_top = 480.0
+margin_right = 560.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_9" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 640.0
+margin_top = 480.0
+margin_right = 640.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_10" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 720.0
+margin_top = 480.0
+margin_right = 720.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_11" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 800.0
+margin_top = 480.0
+margin_right = 800.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_12" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 880.0
+margin_top = 480.0
+margin_right = 880.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_13" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 960.0
+margin_top = 480.0
+margin_right = 960.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_14" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1040.0
+margin_top = 480.0
+margin_right = 1040.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_15" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1120.0
+margin_top = 480.0
+margin_right = 1120.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_16" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1200.0
+margin_top = 480.0
+margin_right = 1200.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_17" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1280.0
+margin_top = 480.0
+margin_right = 1280.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_18" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1360.0
+margin_top = 480.0
+margin_right = 1360.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_19" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1440.0
+margin_top = 480.0
+margin_right = 1440.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_20" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1520.0
+margin_top = 480.0
+margin_right = 1520.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_21" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1600.0
+margin_top = 480.0
+margin_right = 1600.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_22" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1680.0
+margin_top = 480.0
+margin_right = 1680.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_23" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1760.0
+margin_top = 480.0
+margin_right = 1760.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_24" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1840.0
+margin_top = 480.0
+margin_right = 1840.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_25" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 1920.0
+margin_top = 480.0
+margin_right = 1920.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_26" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2000.0
+margin_top = 480.0
+margin_right = 2000.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_27" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2080.0
+margin_top = 480.0
+margin_right = 2080.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_28" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2160.0
+margin_top = 480.0
+margin_right = 2160.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_29" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2240.0
+margin_top = 480.0
+margin_right = 2240.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_30" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2320.0
+margin_top = 480.0
+margin_right = 2320.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_31" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2400.0
+margin_top = 480.0
+margin_right = 2400.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_32" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2480.0
+margin_top = 480.0
+margin_right = 2480.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_33" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2560.0
+margin_top = 480.0
+margin_right = 2560.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_34" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2640.0
+margin_top = 480.0
+margin_right = 2640.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_35" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2720.0
+margin_top = 480.0
+margin_right = 2720.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_36" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2800.0
+margin_top = 480.0
+margin_right = 2800.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_37" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2880.0
+margin_top = 480.0
+margin_right = 2880.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_38" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 2960.0
+margin_top = 480.0
+margin_right = 2960.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_39" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3040.0
+margin_top = 480.0
+margin_right = 3040.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_40" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3120.0
+margin_top = 480.0
+margin_right = 3120.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_41" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3200.0
+margin_top = 480.0
+margin_right = 3200.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_42" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3280.0
+margin_top = 480.0
+margin_right = 3280.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_43" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3360.0
+margin_top = 480.0
+margin_right = 3360.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_44" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3440.0
+margin_top = 480.0
+margin_right = 3440.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_45" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3520.0
+margin_top = 480.0
+margin_right = 3520.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_46" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3600.0
+margin_top = 480.0
+margin_right = 3600.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_47" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3680.0
+margin_top = 480.0
+margin_right = 3680.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_48" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3760.0
+margin_top = 480.0
+margin_right = 3760.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_49" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3840.0
+margin_top = 480.0
+margin_right = 3840.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_50" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 3920.0
+margin_top = 480.0
+margin_right = 3920.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_51" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4000.0
+margin_top = 480.0
+margin_right = 4000.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_52" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4080.0
+margin_top = 480.0
+margin_right = 4080.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_53" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4160.0
+margin_top = 480.0
+margin_right = 4160.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_54" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4240.0
+margin_top = 480.0
+margin_right = 4240.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_55" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4320.0
+margin_top = 480.0
+margin_right = 4320.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_56" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4400.0
+margin_top = 480.0
+margin_right = 4400.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_57" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4480.0
+margin_top = 480.0
+margin_right = 4480.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_58" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4560.0
+margin_top = 480.0
+margin_right = 4560.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_59" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4640.0
+margin_top = 480.0
+margin_right = 4640.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_60" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4720.0
+margin_top = 480.0
+margin_right = 4720.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_61" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4800.0
+margin_top = 480.0
+margin_right = 4800.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_62" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4880.0
+margin_top = 480.0
+margin_right = 4880.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_63" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 4960.0
+margin_top = 480.0
+margin_right = 4960.0
+margin_bottom = 480.0
+
+[node name="Note_Res4_64" parent="Mandachord_Body" instance=ExtResource( 7 )]
+margin_left = 5040.0
+margin_top = 480.0
+margin_right = 5040.0
+margin_bottom = 480.0
+
+[node name="Note_Res5_1" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_top = 560.0
+margin_right = 0.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_2" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 80.0
+margin_top = 560.0
+margin_right = 80.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_3" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 160.0
+margin_top = 560.0
+margin_right = 160.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_4" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 240.0
+margin_top = 560.0
+margin_right = 240.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_5" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 320.0
+margin_top = 560.0
+margin_right = 320.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_6" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 400.0
+margin_top = 560.0
+margin_right = 400.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_7" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 480.0
+margin_top = 560.0
+margin_right = 480.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_8" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 560.0
+margin_top = 560.0
+margin_right = 560.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_9" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 640.0
+margin_top = 560.0
+margin_right = 640.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_10" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 720.0
+margin_top = 560.0
+margin_right = 720.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_11" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 800.0
+margin_top = 560.0
+margin_right = 800.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_12" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 880.0
+margin_top = 560.0
+margin_right = 880.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_13" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 960.0
+margin_top = 560.0
+margin_right = 960.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_14" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1040.0
+margin_top = 560.0
+margin_right = 1040.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_15" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1120.0
+margin_top = 560.0
+margin_right = 1120.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_16" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1200.0
+margin_top = 560.0
+margin_right = 1200.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_17" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1280.0
+margin_top = 560.0
+margin_right = 1280.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_18" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1360.0
+margin_top = 560.0
+margin_right = 1360.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_19" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1440.0
+margin_top = 560.0
+margin_right = 1440.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_20" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1520.0
+margin_top = 560.0
+margin_right = 1520.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_21" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1600.0
+margin_top = 560.0
+margin_right = 1600.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_22" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1680.0
+margin_top = 560.0
+margin_right = 1680.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_23" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1760.0
+margin_top = 560.0
+margin_right = 1760.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_24" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1840.0
+margin_top = 560.0
+margin_right = 1840.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_25" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 1920.0
+margin_top = 560.0
+margin_right = 1920.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_26" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2000.0
+margin_top = 560.0
+margin_right = 2000.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_27" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2080.0
+margin_top = 560.0
+margin_right = 2080.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_28" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2160.0
+margin_top = 560.0
+margin_right = 2160.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_29" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2240.0
+margin_top = 560.0
+margin_right = 2240.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_30" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2320.0
+margin_top = 560.0
+margin_right = 2320.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_31" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2400.0
+margin_top = 560.0
+margin_right = 2400.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_32" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2480.0
+margin_top = 560.0
+margin_right = 2480.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_33" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2560.0
+margin_top = 560.0
+margin_right = 2560.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_34" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2640.0
+margin_top = 560.0
+margin_right = 2640.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_35" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2720.0
+margin_top = 560.0
+margin_right = 2720.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_36" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2800.0
+margin_top = 560.0
+margin_right = 2800.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_37" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2880.0
+margin_top = 560.0
+margin_right = 2880.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_38" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 2960.0
+margin_top = 560.0
+margin_right = 2960.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_39" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3040.0
+margin_top = 560.0
+margin_right = 3040.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_40" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3120.0
+margin_top = 560.0
+margin_right = 3120.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_41" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3200.0
+margin_top = 560.0
+margin_right = 3200.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_42" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3280.0
+margin_top = 560.0
+margin_right = 3280.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_43" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3360.0
+margin_top = 560.0
+margin_right = 3360.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_44" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3440.0
+margin_top = 560.0
+margin_right = 3440.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_45" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3520.0
+margin_top = 560.0
+margin_right = 3520.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_46" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3600.0
+margin_top = 560.0
+margin_right = 3600.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_47" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3680.0
+margin_top = 560.0
+margin_right = 3680.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_48" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3760.0
+margin_top = 560.0
+margin_right = 3760.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_49" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3840.0
+margin_top = 560.0
+margin_right = 3840.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_50" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 3920.0
+margin_top = 560.0
+margin_right = 3920.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_51" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4000.0
+margin_top = 560.0
+margin_right = 4000.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_52" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4080.0
+margin_top = 560.0
+margin_right = 4080.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_53" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4160.0
+margin_top = 560.0
+margin_right = 4160.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_54" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4240.0
+margin_top = 560.0
+margin_right = 4240.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_55" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4320.0
+margin_top = 560.0
+margin_right = 4320.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_56" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4400.0
+margin_top = 560.0
+margin_right = 4400.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_57" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4480.0
+margin_top = 560.0
+margin_right = 4480.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_58" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4560.0
+margin_top = 560.0
+margin_right = 4560.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_59" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4640.0
+margin_top = 560.0
+margin_right = 4640.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_60" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4720.0
+margin_top = 560.0
+margin_right = 4720.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_61" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4800.0
+margin_top = 560.0
+margin_right = 4800.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_62" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4880.0
+margin_top = 560.0
+margin_right = 4880.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_63" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 4960.0
+margin_top = 560.0
+margin_right = 4960.0
+margin_bottom = 560.0
+
+[node name="Note_Res5_64" parent="Mandachord_Body" instance=ExtResource( 8 )]
+margin_left = 5040.0
+margin_top = 560.0
+margin_right = 5040.0
+margin_bottom = 560.0
+
+[node name="Note_Met1_1" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_top = 640.0
+margin_right = 0.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_2" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 80.0
+margin_top = 640.0
+margin_right = 80.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_3" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 160.0
+margin_top = 640.0
+margin_right = 160.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_4" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 240.0
+margin_top = 640.0
+margin_right = 240.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_5" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 320.0
+margin_top = 640.0
+margin_right = 320.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_6" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 400.0
+margin_top = 640.0
+margin_right = 400.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_7" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 480.0
+margin_top = 640.0
+margin_right = 480.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_8" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 560.0
+margin_top = 640.0
+margin_right = 560.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_9" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 640.0
+margin_top = 640.0
+margin_right = 640.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_10" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 720.0
+margin_top = 640.0
+margin_right = 720.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_11" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 800.0
+margin_top = 640.0
+margin_right = 800.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_12" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 880.0
+margin_top = 640.0
+margin_right = 880.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_13" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 960.0
+margin_top = 640.0
+margin_right = 960.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_14" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1040.0
+margin_top = 640.0
+margin_right = 1040.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_15" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1120.0
+margin_top = 640.0
+margin_right = 1120.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_16" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1200.0
+margin_top = 640.0
+margin_right = 1200.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_17" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1280.0
+margin_top = 640.0
+margin_right = 1280.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_18" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1360.0
+margin_top = 640.0
+margin_right = 1360.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_19" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1440.0
+margin_top = 640.0
+margin_right = 1440.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_20" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1520.0
+margin_top = 640.0
+margin_right = 1520.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_21" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1600.0
+margin_top = 640.0
+margin_right = 1600.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_22" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1680.0
+margin_top = 640.0
+margin_right = 1680.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_23" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1760.0
+margin_top = 640.0
+margin_right = 1760.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_24" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1840.0
+margin_top = 640.0
+margin_right = 1840.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_25" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 1920.0
+margin_top = 640.0
+margin_right = 1920.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_26" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2000.0
+margin_top = 640.0
+margin_right = 2000.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_27" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2080.0
+margin_top = 640.0
+margin_right = 2080.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_28" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2160.0
+margin_top = 640.0
+margin_right = 2160.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_29" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2240.0
+margin_top = 640.0
+margin_right = 2240.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_30" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2320.0
+margin_top = 640.0
+margin_right = 2320.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_31" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2400.0
+margin_top = 640.0
+margin_right = 2400.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_32" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2480.0
+margin_top = 640.0
+margin_right = 2480.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_33" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2560.0
+margin_top = 640.0
+margin_right = 2560.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_34" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2640.0
+margin_top = 640.0
+margin_right = 2640.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_35" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2720.0
+margin_top = 640.0
+margin_right = 2720.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_36" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2800.0
+margin_top = 640.0
+margin_right = 2800.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_37" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2880.0
+margin_top = 640.0
+margin_right = 2880.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_38" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 2960.0
+margin_top = 640.0
+margin_right = 2960.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_39" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3040.0
+margin_top = 640.0
+margin_right = 3040.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_40" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3120.0
+margin_top = 640.0
+margin_right = 3120.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_41" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3200.0
+margin_top = 640.0
+margin_right = 3200.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_42" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3280.0
+margin_top = 640.0
+margin_right = 3280.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_43" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3360.0
+margin_top = 640.0
+margin_right = 3360.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_44" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3440.0
+margin_top = 640.0
+margin_right = 3440.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_45" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3520.0
+margin_top = 640.0
+margin_right = 3520.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_46" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3600.0
+margin_top = 640.0
+margin_right = 3600.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_47" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3680.0
+margin_top = 640.0
+margin_right = 3680.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_48" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3760.0
+margin_top = 640.0
+margin_right = 3760.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_49" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3840.0
+margin_top = 640.0
+margin_right = 3840.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_50" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 3920.0
+margin_top = 640.0
+margin_right = 3920.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_51" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4000.0
+margin_top = 640.0
+margin_right = 4000.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_52" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4080.0
+margin_top = 640.0
+margin_right = 4080.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_53" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4160.0
+margin_top = 640.0
+margin_right = 4160.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_54" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4240.0
+margin_top = 640.0
+margin_right = 4240.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_55" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4320.0
+margin_top = 640.0
+margin_right = 4320.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_56" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4400.0
+margin_top = 640.0
+margin_right = 4400.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_57" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4480.0
+margin_top = 640.0
+margin_right = 4480.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_58" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4560.0
+margin_top = 640.0
+margin_right = 4560.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_59" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4640.0
+margin_top = 640.0
+margin_right = 4640.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_60" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4720.0
+margin_top = 640.0
+margin_right = 4720.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_61" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4800.0
+margin_top = 640.0
+margin_right = 4800.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_62" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4880.0
+margin_top = 640.0
+margin_right = 4880.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_63" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 4960.0
+margin_top = 640.0
+margin_right = 4960.0
+margin_bottom = 640.0
+
+[node name="Note_Met1_64" parent="Mandachord_Body" instance=ExtResource( 9 )]
+margin_left = 5040.0
+margin_top = 640.0
+margin_right = 5040.0
+margin_bottom = 640.0
+
+[node name="Note_Met2_1" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_top = 720.0
+margin_right = 0.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_2" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 80.0
+margin_top = 720.0
+margin_right = 80.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_3" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 160.0
+margin_top = 720.0
+margin_right = 160.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_4" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 240.0
+margin_top = 720.0
+margin_right = 240.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_5" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 320.0
+margin_top = 720.0
+margin_right = 320.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_6" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 400.0
+margin_top = 720.0
+margin_right = 400.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_7" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 480.0
+margin_top = 720.0
+margin_right = 480.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_8" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 560.0
+margin_top = 720.0
+margin_right = 560.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_9" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 640.0
+margin_top = 720.0
+margin_right = 640.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_10" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 720.0
+margin_top = 720.0
+margin_right = 720.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_11" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 800.0
+margin_top = 720.0
+margin_right = 800.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_12" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 880.0
+margin_top = 720.0
+margin_right = 880.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_13" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 960.0
+margin_top = 720.0
+margin_right = 960.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_14" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1040.0
+margin_top = 720.0
+margin_right = 1040.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_15" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1120.0
+margin_top = 720.0
+margin_right = 1120.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_16" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1200.0
+margin_top = 720.0
+margin_right = 1200.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_17" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1280.0
+margin_top = 720.0
+margin_right = 1280.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_18" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1360.0
+margin_top = 720.0
+margin_right = 1360.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_19" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1440.0
+margin_top = 720.0
+margin_right = 1440.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_20" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1520.0
+margin_top = 720.0
+margin_right = 1520.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_21" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1600.0
+margin_top = 720.0
+margin_right = 1600.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_22" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1680.0
+margin_top = 720.0
+margin_right = 1680.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_23" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1760.0
+margin_top = 720.0
+margin_right = 1760.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_24" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1840.0
+margin_top = 720.0
+margin_right = 1840.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_25" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 1920.0
+margin_top = 720.0
+margin_right = 1920.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_26" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2000.0
+margin_top = 720.0
+margin_right = 2000.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_27" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2080.0
+margin_top = 720.0
+margin_right = 2080.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_28" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2160.0
+margin_top = 720.0
+margin_right = 2160.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_29" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2240.0
+margin_top = 720.0
+margin_right = 2240.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_30" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2320.0
+margin_top = 720.0
+margin_right = 2320.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_31" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2400.0
+margin_top = 720.0
+margin_right = 2400.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_32" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2480.0
+margin_top = 720.0
+margin_right = 2480.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_33" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2560.0
+margin_top = 720.0
+margin_right = 2560.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_34" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2640.0
+margin_top = 720.0
+margin_right = 2640.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_35" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2720.0
+margin_top = 720.0
+margin_right = 2720.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_36" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2800.0
+margin_top = 720.0
+margin_right = 2800.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_37" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2880.0
+margin_top = 720.0
+margin_right = 2880.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_38" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 2960.0
+margin_top = 720.0
+margin_right = 2960.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_39" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3040.0
+margin_top = 720.0
+margin_right = 3040.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_40" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3120.0
+margin_top = 720.0
+margin_right = 3120.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_41" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3200.0
+margin_top = 720.0
+margin_right = 3200.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_42" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3280.0
+margin_top = 720.0
+margin_right = 3280.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_43" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3360.0
+margin_top = 720.0
+margin_right = 3360.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_44" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3440.0
+margin_top = 720.0
+margin_right = 3440.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_45" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3520.0
+margin_top = 720.0
+margin_right = 3520.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_46" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3600.0
+margin_top = 720.0
+margin_right = 3600.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_47" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3680.0
+margin_top = 720.0
+margin_right = 3680.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_48" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3760.0
+margin_top = 720.0
+margin_right = 3760.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_49" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3840.0
+margin_top = 720.0
+margin_right = 3840.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_50" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 3920.0
+margin_top = 720.0
+margin_right = 3920.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_51" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4000.0
+margin_top = 720.0
+margin_right = 4000.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_52" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4080.0
+margin_top = 720.0
+margin_right = 4080.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_53" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4160.0
+margin_top = 720.0
+margin_right = 4160.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_54" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4240.0
+margin_top = 720.0
+margin_right = 4240.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_55" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4320.0
+margin_top = 720.0
+margin_right = 4320.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_56" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4400.0
+margin_top = 720.0
+margin_right = 4400.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_57" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4480.0
+margin_top = 720.0
+margin_right = 4480.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_58" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4560.0
+margin_top = 720.0
+margin_right = 4560.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_59" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4640.0
+margin_top = 720.0
+margin_right = 4640.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_60" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4720.0
+margin_top = 720.0
+margin_right = 4720.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_61" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4800.0
+margin_top = 720.0
+margin_right = 4800.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_62" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4880.0
+margin_top = 720.0
+margin_right = 4880.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_63" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 4960.0
+margin_top = 720.0
+margin_right = 4960.0
+margin_bottom = 720.0
+
+[node name="Note_Met2_64" parent="Mandachord_Body" instance=ExtResource( 10 )]
+margin_left = 5040.0
+margin_top = 720.0
+margin_right = 5040.0
+margin_bottom = 720.0
+
+[node name="Note_Met3_1" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_top = 800.0
+margin_right = 0.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_2" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 80.0
+margin_top = 800.0
+margin_right = 80.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_3" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 160.0
+margin_top = 800.0
+margin_right = 160.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_4" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 240.0
+margin_top = 800.0
+margin_right = 240.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_5" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 320.0
+margin_top = 800.0
+margin_right = 320.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_6" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 400.0
+margin_top = 800.0
+margin_right = 400.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_7" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 480.0
+margin_top = 800.0
+margin_right = 480.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_8" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 560.0
+margin_top = 800.0
+margin_right = 560.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_9" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 640.0
+margin_top = 800.0
+margin_right = 640.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_10" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 720.0
+margin_top = 800.0
+margin_right = 720.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_11" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 800.0
+margin_top = 800.0
+margin_right = 800.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_12" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 880.0
+margin_top = 800.0
+margin_right = 880.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_13" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 960.0
+margin_top = 800.0
+margin_right = 960.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_14" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1040.0
+margin_top = 800.0
+margin_right = 1040.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_15" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1120.0
+margin_top = 800.0
+margin_right = 1120.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_16" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1200.0
+margin_top = 800.0
+margin_right = 1200.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_17" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1280.0
+margin_top = 800.0
+margin_right = 1280.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_18" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1360.0
+margin_top = 800.0
+margin_right = 1360.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_19" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1440.0
+margin_top = 800.0
+margin_right = 1440.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_20" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1520.0
+margin_top = 800.0
+margin_right = 1520.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_21" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1600.0
+margin_top = 800.0
+margin_right = 1600.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_22" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1680.0
+margin_top = 800.0
+margin_right = 1680.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_23" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1760.0
+margin_top = 800.0
+margin_right = 1760.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_24" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1840.0
+margin_top = 800.0
+margin_right = 1840.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_25" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 1920.0
+margin_top = 800.0
+margin_right = 1920.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_26" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2000.0
+margin_top = 800.0
+margin_right = 2000.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_27" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2080.0
+margin_top = 800.0
+margin_right = 2080.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_28" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2160.0
+margin_top = 800.0
+margin_right = 2160.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_29" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2240.0
+margin_top = 800.0
+margin_right = 2240.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_30" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2320.0
+margin_top = 800.0
+margin_right = 2320.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_31" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2400.0
+margin_top = 800.0
+margin_right = 2400.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_32" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2480.0
+margin_top = 800.0
+margin_right = 2480.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_33" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2560.0
+margin_top = 800.0
+margin_right = 2560.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_34" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2640.0
+margin_top = 800.0
+margin_right = 2640.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_35" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2720.0
+margin_top = 800.0
+margin_right = 2720.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_36" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2800.0
+margin_top = 800.0
+margin_right = 2800.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_37" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2880.0
+margin_top = 800.0
+margin_right = 2880.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_38" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 2960.0
+margin_top = 800.0
+margin_right = 2960.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_39" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3040.0
+margin_top = 800.0
+margin_right = 3040.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_40" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3120.0
+margin_top = 800.0
+margin_right = 3120.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_41" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3200.0
+margin_top = 800.0
+margin_right = 3200.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_42" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3280.0
+margin_top = 800.0
+margin_right = 3280.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_43" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3360.0
+margin_top = 800.0
+margin_right = 3360.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_44" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3440.0
+margin_top = 800.0
+margin_right = 3440.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_45" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3520.0
+margin_top = 800.0
+margin_right = 3520.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_46" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3600.0
+margin_top = 800.0
+margin_right = 3600.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_47" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3680.0
+margin_top = 800.0
+margin_right = 3680.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_48" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3760.0
+margin_top = 800.0
+margin_right = 3760.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_49" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3840.0
+margin_top = 800.0
+margin_right = 3840.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_50" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 3920.0
+margin_top = 800.0
+margin_right = 3920.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_51" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4000.0
+margin_top = 800.0
+margin_right = 4000.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_52" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4080.0
+margin_top = 800.0
+margin_right = 4080.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_53" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4160.0
+margin_top = 800.0
+margin_right = 4160.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_54" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4240.0
+margin_top = 800.0
+margin_right = 4240.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_55" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4320.0
+margin_top = 800.0
+margin_right = 4320.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_56" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4400.0
+margin_top = 800.0
+margin_right = 4400.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_57" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4480.0
+margin_top = 800.0
+margin_right = 4480.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_58" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4560.0
+margin_top = 800.0
+margin_right = 4560.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_59" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4640.0
+margin_top = 800.0
+margin_right = 4640.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_60" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4720.0
+margin_top = 800.0
+margin_right = 4720.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_61" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4800.0
+margin_top = 800.0
+margin_right = 4800.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_62" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4880.0
+margin_top = 800.0
+margin_right = 4880.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_63" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 4960.0
+margin_top = 800.0
+margin_right = 4960.0
+margin_bottom = 800.0
+
+[node name="Note_Met3_64" parent="Mandachord_Body" instance=ExtResource( 11 )]
+margin_left = 5040.0
+margin_top = 800.0
+margin_right = 5040.0
+margin_bottom = 800.0
+
+[node name="Note_Met4_1" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_top = 880.0
+margin_right = 0.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_2" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 80.0
+margin_top = 880.0
+margin_right = 80.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_3" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 160.0
+margin_top = 880.0
+margin_right = 160.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_4" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 240.0
+margin_top = 880.0
+margin_right = 240.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_5" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 320.0
+margin_top = 880.0
+margin_right = 320.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_6" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 400.0
+margin_top = 880.0
+margin_right = 400.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_7" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 480.0
+margin_top = 880.0
+margin_right = 480.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_8" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 560.0
+margin_top = 880.0
+margin_right = 560.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_9" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 640.0
+margin_top = 880.0
+margin_right = 640.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_10" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 720.0
+margin_top = 880.0
+margin_right = 720.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_11" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 800.0
+margin_top = 880.0
+margin_right = 800.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_12" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 880.0
+margin_top = 880.0
+margin_right = 880.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_13" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 960.0
+margin_top = 880.0
+margin_right = 960.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_14" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1040.0
+margin_top = 880.0
+margin_right = 1040.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_15" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1120.0
+margin_top = 880.0
+margin_right = 1120.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_16" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1200.0
+margin_top = 880.0
+margin_right = 1200.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_17" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1280.0
+margin_top = 880.0
+margin_right = 1280.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_18" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1360.0
+margin_top = 880.0
+margin_right = 1360.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_19" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1440.0
+margin_top = 880.0
+margin_right = 1440.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_20" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1520.0
+margin_top = 880.0
+margin_right = 1520.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_21" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1600.0
+margin_top = 880.0
+margin_right = 1600.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_22" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1680.0
+margin_top = 880.0
+margin_right = 1680.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_23" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1760.0
+margin_top = 880.0
+margin_right = 1760.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_24" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1840.0
+margin_top = 880.0
+margin_right = 1840.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_25" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 1920.0
+margin_top = 880.0
+margin_right = 1920.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_26" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2000.0
+margin_top = 880.0
+margin_right = 2000.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_27" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2080.0
+margin_top = 880.0
+margin_right = 2080.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_28" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2160.0
+margin_top = 880.0
+margin_right = 2160.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_29" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2240.0
+margin_top = 880.0
+margin_right = 2240.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_30" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2320.0
+margin_top = 880.0
+margin_right = 2320.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_31" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2400.0
+margin_top = 880.0
+margin_right = 2400.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_32" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2480.0
+margin_top = 880.0
+margin_right = 2480.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_33" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2560.0
+margin_top = 880.0
+margin_right = 2560.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_34" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2640.0
+margin_top = 880.0
+margin_right = 2640.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_35" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2720.0
+margin_top = 880.0
+margin_right = 2720.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_36" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2800.0
+margin_top = 880.0
+margin_right = 2800.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_37" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2880.0
+margin_top = 880.0
+margin_right = 2880.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_38" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 2960.0
+margin_top = 880.0
+margin_right = 2960.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_39" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3040.0
+margin_top = 880.0
+margin_right = 3040.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_40" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3120.0
+margin_top = 880.0
+margin_right = 3120.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_41" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3200.0
+margin_top = 880.0
+margin_right = 3200.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_42" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3280.0
+margin_top = 880.0
+margin_right = 3280.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_43" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3360.0
+margin_top = 880.0
+margin_right = 3360.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_44" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3440.0
+margin_top = 880.0
+margin_right = 3440.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_45" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3520.0
+margin_top = 880.0
+margin_right = 3520.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_46" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3600.0
+margin_top = 880.0
+margin_right = 3600.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_47" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3680.0
+margin_top = 880.0
+margin_right = 3680.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_48" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3760.0
+margin_top = 880.0
+margin_right = 3760.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_49" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3840.0
+margin_top = 880.0
+margin_right = 3840.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_50" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 3920.0
+margin_top = 880.0
+margin_right = 3920.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_51" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4000.0
+margin_top = 880.0
+margin_right = 4000.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_52" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4080.0
+margin_top = 880.0
+margin_right = 4080.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_53" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4160.0
+margin_top = 880.0
+margin_right = 4160.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_54" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4240.0
+margin_top = 880.0
+margin_right = 4240.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_55" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4320.0
+margin_top = 880.0
+margin_right = 4320.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_56" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4400.0
+margin_top = 880.0
+margin_right = 4400.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_57" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4480.0
+margin_top = 880.0
+margin_right = 4480.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_58" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4560.0
+margin_top = 880.0
+margin_right = 4560.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_59" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4640.0
+margin_top = 880.0
+margin_right = 4640.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_60" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4720.0
+margin_top = 880.0
+margin_right = 4720.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_61" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4800.0
+margin_top = 880.0
+margin_right = 4800.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_62" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4880.0
+margin_top = 880.0
+margin_right = 4880.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_63" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 4960.0
+margin_top = 880.0
+margin_right = 4960.0
+margin_bottom = 880.0
+
+[node name="Note_Met4_64" parent="Mandachord_Body" instance=ExtResource( 12 )]
+margin_left = 5040.0
+margin_top = 880.0
+margin_right = 5040.0
+margin_bottom = 880.0
+
+[node name="Note_Met5_1" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_top = 960.0
+margin_right = 0.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_2" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 80.0
+margin_top = 960.0
+margin_right = 80.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_3" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 160.0
+margin_top = 960.0
+margin_right = 160.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_4" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 240.0
+margin_top = 960.0
+margin_right = 240.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_5" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 320.0
+margin_top = 960.0
+margin_right = 320.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_6" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 400.0
+margin_top = 960.0
+margin_right = 400.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_7" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 480.0
+margin_top = 960.0
+margin_right = 480.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_8" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 560.0
+margin_top = 960.0
+margin_right = 560.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_9" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 640.0
+margin_top = 960.0
+margin_right = 640.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_10" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 720.0
+margin_top = 960.0
+margin_right = 720.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_11" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 800.0
+margin_top = 960.0
+margin_right = 800.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_12" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 880.0
+margin_top = 960.0
+margin_right = 880.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_13" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 960.0
+margin_top = 960.0
+margin_right = 960.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_14" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1040.0
+margin_top = 960.0
+margin_right = 1040.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_15" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1120.0
+margin_top = 960.0
+margin_right = 1120.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_16" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1200.0
+margin_top = 960.0
+margin_right = 1200.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_17" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1280.0
+margin_top = 960.0
+margin_right = 1280.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_18" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1360.0
+margin_top = 960.0
+margin_right = 1360.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_19" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1440.0
+margin_top = 960.0
+margin_right = 1440.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_20" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1520.0
+margin_top = 960.0
+margin_right = 1520.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_21" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1600.0
+margin_top = 960.0
+margin_right = 1600.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_22" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1680.0
+margin_top = 960.0
+margin_right = 1680.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_23" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1760.0
+margin_top = 960.0
+margin_right = 1760.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_24" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1840.0
+margin_top = 960.0
+margin_right = 1840.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_25" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 1920.0
+margin_top = 960.0
+margin_right = 1920.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_26" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2000.0
+margin_top = 960.0
+margin_right = 2000.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_27" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2080.0
+margin_top = 960.0
+margin_right = 2080.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_28" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2160.0
+margin_top = 960.0
+margin_right = 2160.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_29" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2240.0
+margin_top = 960.0
+margin_right = 2240.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_30" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2320.0
+margin_top = 960.0
+margin_right = 2320.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_31" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2400.0
+margin_top = 960.0
+margin_right = 2400.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_32" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2480.0
+margin_top = 960.0
+margin_right = 2480.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_33" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2560.0
+margin_top = 960.0
+margin_right = 2560.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_34" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2640.0
+margin_top = 960.0
+margin_right = 2640.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_35" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2720.0
+margin_top = 960.0
+margin_right = 2720.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_36" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2800.0
+margin_top = 960.0
+margin_right = 2800.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_37" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2880.0
+margin_top = 960.0
+margin_right = 2880.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_38" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 2960.0
+margin_top = 960.0
+margin_right = 2960.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_39" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3040.0
+margin_top = 960.0
+margin_right = 3040.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_40" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3120.0
+margin_top = 960.0
+margin_right = 3120.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_41" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3200.0
+margin_top = 960.0
+margin_right = 3200.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_42" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3280.0
+margin_top = 960.0
+margin_right = 3280.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_43" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3360.0
+margin_top = 960.0
+margin_right = 3360.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_44" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3440.0
+margin_top = 960.0
+margin_right = 3440.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_45" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3520.0
+margin_top = 960.0
+margin_right = 3520.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_46" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3600.0
+margin_top = 960.0
+margin_right = 3600.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_47" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3680.0
+margin_top = 960.0
+margin_right = 3680.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_48" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3760.0
+margin_top = 960.0
+margin_right = 3760.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_49" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3840.0
+margin_top = 960.0
+margin_right = 3840.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_50" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 3920.0
+margin_top = 960.0
+margin_right = 3920.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_51" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4000.0
+margin_top = 960.0
+margin_right = 4000.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_52" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4080.0
+margin_top = 960.0
+margin_right = 4080.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_53" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4160.0
+margin_top = 960.0
+margin_right = 4160.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_54" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4240.0
+margin_top = 960.0
+margin_right = 4240.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_55" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4320.0
+margin_top = 960.0
+margin_right = 4320.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_56" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4400.0
+margin_top = 960.0
+margin_right = 4400.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_57" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4480.0
+margin_top = 960.0
+margin_right = 4480.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_58" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4560.0
+margin_top = 960.0
+margin_right = 4560.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_59" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4640.0
+margin_top = 960.0
+margin_right = 4640.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_60" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4720.0
+margin_top = 960.0
+margin_right = 4720.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_61" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4800.0
+margin_top = 960.0
+margin_right = 4800.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_62" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4880.0
+margin_top = 960.0
+margin_right = 4880.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_63" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 4960.0
+margin_top = 960.0
+margin_right = 4960.0
+margin_bottom = 960.0
+
+[node name="Note_Met5_64" parent="Mandachord_Body" instance=ExtResource( 13 )]
+margin_left = 5040.0
+margin_top = 960.0
+margin_right = 5040.0
+margin_bottom = 960.0
+
+[node name="PlayBar" parent="." instance=ExtResource( 14 )]
 position = Vector2( 0, 359.275 )
 speed = 40.0
 
-[node name="Button_Play" parent="." instance=ExtResource( 5 )]
+[node name="Button_Play" parent="." instance=ExtResource( 15 )]
 margin_left = 24.7
 margin_top = 7.60001
 margin_right = 98.7
 margin_bottom = 38.6
 
-[node name="Button_Mallet" parent="." instance=ExtResource( 6 )]
+[node name="Button_Mallet" parent="." instance=ExtResource( 16 )]
 margin_left = 177.209
 margin_top = 8.16225
 margin_right = 314.209
 margin_bottom = 48.1622
+items = [ "Adau", null, false, 0, null, "Alpha", null, false, 1, null, "Beta", null, false, 2, null, "Delta", null, false, 3, null, "Druk", null, false, 4, null, "Epsilon", null, false, 5, null, "Gamma", null, false, 6, null, "Horos", null, false, 7, null, "Plogg", null, false, 8, null ]
+
+[node name="Button_Metronome" parent="." instance=ExtResource( 17 )]
+margin_left = 608.015
+margin_top = 8.20224
+margin_right = 765.015
+margin_bottom = 48.2022
+
+[node name="Button_Resonator" parent="." instance=ExtResource( 18 )]
+margin_left = 386.555
+margin_top = 10.2527
+margin_right = 537.555
+margin_bottom = 50.2527
 items = [ "Adau", null, false, 0, null, "Alpha", null, false, 1, null, "Beta", null, false, 2, null, "Delta", null, false, 3, null, "Druk", null, false, 4, null, "Epsilon", null, false, 5, null, "Gamma", null, false, 6, null, "Horos", null, false, 7, null, "Plogg", null, false, 8, null ]
