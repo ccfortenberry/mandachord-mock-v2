@@ -1,7 +1,8 @@
 extends Control
 
 func _ready():
-	get_parent().get_node("../Button_Metronome").connect("metronome_instrument_changed", self, "_on_metronome_changed")
+	if get_parent().get_node("../Buttons_Container/Button_Metronome").connect("metronome_instrument_changed", self, "_on_metronome_changed"):
+		print("ERROR: Signal connection failed in Note Metronome 2!")
 
 #func _process(delta):
 #	pass

@@ -1,7 +1,8 @@
 extends Control
 
 func _ready():
-	get_parent().get_node("../Button_Mallet").connect("mallets_instrument_changed", self, "_on_mallets_changed")
+	if get_parent().get_node("../Buttons_Container/Button_Mallet").connect("mallets_instrument_changed", self, "_on_mallets_changed"):
+		print("ERROR: Signal connection failed in Note Mallet 3!")
 
 #func _process(delta):
 #	pass

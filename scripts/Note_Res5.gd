@@ -1,7 +1,8 @@
 extends Control
 
 func _ready():
-	get_parent().get_node("../Button_Resonator").connect("resonator_instrument_changed", self, "_on_resonator_changed")
+	if get_parent().get_node("../Buttons_Container/Button_Resonator").connect("resonator_instrument_changed", self, "_on_resonator_changed"):
+		print("ERROR: Signal connection failed in Note Resonator 5!")
 
 #func _process(delta):
 #	pass
