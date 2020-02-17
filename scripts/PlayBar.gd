@@ -6,6 +6,7 @@ var screen_size
 var velocity = Vector2(1,0)
 
 func _ready():
+	set_as_toplevel(true)
 	screen_size = get_viewport_rect().size
 
 func _process(delta):

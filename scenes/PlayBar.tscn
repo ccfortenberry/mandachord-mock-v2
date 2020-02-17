@@ -6,6 +6,7 @@
 extents = Vector2( 2.57436, 359.842 )
 
 [node name="PlayBar" type="KinematicBody2D"]
+scale = Vector2( 1, 0.875 )
 script = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
